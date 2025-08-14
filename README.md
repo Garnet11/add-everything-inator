@@ -41,4 +41,4 @@ related
 
 (This list can be useful if you're doing Add Everything studios.)
 <h2>What the script does after everything has been filled out</h2>
-The script will check if any of the studios that have been searched the project has already been added to, and it will attempt add the project to each studio in the search results (except for ones with forbidden words in the title of course)
+The script will use the Scratch API (scratchattach) to search studios (with the limit being the amount of studios number you entered), and after that, it will check if any studios searched the project has already been added to. Then, it will begin adding the project to the list of studios found (except for ones with forbidden words in the title of course)
